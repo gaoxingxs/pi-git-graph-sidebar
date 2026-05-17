@@ -20,5 +20,18 @@
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-tui": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuxiang-gao/pi-git-graph-sidebar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuxiang-gao/pi-git-graph-sidebar/issues"
+  },
+  "homepage": "https://github.com/yuxiang-gao/pi-git-graph-sidebar#readme",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ]
 }

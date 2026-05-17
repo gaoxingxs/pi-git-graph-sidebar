@@ -11,7 +11,7 @@ It opens an interactive right-side graph of your repository history using `git l
 - Branch/decorator display from Git
 - Keyboard navigation
 - Refresh without closing the sidebar
-- Works as a Pi package installed from GitHub
+- Works as a Pi package installed from npm or GitHub
 
 ## Preview
 
@@ -32,17 +32,25 @@ It opens an interactive right-side graph of your repository history using `git l
 
 ## Installation
 
+### From npm
+
+```bash
+pi install npm:pi-git-graph-sidebar
+```
+
+Then restart Pi or run `/reload` in an existing Pi TUI session.
+
 ### From GitHub
 
 ```bash
 pi install git:github.com/yuxiang-gao/pi-git-graph-sidebar
 ```
 
-Then restart Pi or run `/reload` in an existing Pi TUI session.
-
 ### Try without installing
 
 ```bash
+pi -e npm:pi-git-graph-sidebar
+# or
 pi -e git:github.com/yuxiang-gao/pi-git-graph-sidebar
 ```
 
