@@ -1,0 +1,24 @@
+{
+  "name": "pi-git-graph-sidebar",
+  "version": "0.1.0",
+  "description": "A VS Code Git Graph-style sidebar overlay for the Pi coding agent TUI.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "git",
+    "git-graph",
+    "tui"
+  ],
+  "license": "MIT",
+  "author": "yuxiang-gao",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
