@@ -1,14 +1,16 @@
 {
   "name": "pi-git-graph-sidebar",
-  "version": "0.1.0",
-  "description": "A VS Code Git Graph-style sidebar overlay for the Pi coding agent TUI.",
+  "version": "0.2.0",
+  "description": "A VS Code Git Graph-style commit graph for the Pi coding agent, in the TUI and in Pi Web, with a repository picker for directories that hold several.",
   "type": "module",
   "keywords": [
     "pi-package",
     "pi-extension",
     "git",
     "git-graph",
-    "tui"
+    "tui",
+    "pi-web",
+    "multi-repo"
   ],
   "license": "MIT",
   "author": "yuxiang-gao",
@@ -33,5 +35,12 @@
     "extensions",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
 }
